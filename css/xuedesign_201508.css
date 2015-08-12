@@ -106,29 +106,36 @@ h1 a{
 #box_content h3{
 	display:block;
 	position:absolute;
-	top:210px;
+	top:215px;
 	right:91px;
 	z-index:99;
 	width:302px;
 	height:35px;
 	background:url(../images/pic_h3.png) no-repeat;
 	text-indent:-9999px}
-#box_file{
-	display:block;
-	position:relative;
-	float:left;
-	width:630px}
-#box_file a{
+.btn_play-01 a{
 	display:block;
 	position:absolute;
-	top:248px;
-	left:224px;
-	width:156px;
-	height:154px;
+	top:-80px;
+	right:163px;
+	width:73px;
+	height:75px;
 	background:url(../images/btn_play.png) no-repeat;
 	text-indent:-9999px}
-#box_file a:hover{
-	background:url(../images/btn_play.png) 0 -154px no-repeat}
+.btn_play-01 a:hover{
+	background:url(../images/btn_play.png) 0 -75px no-repeat}
+.btn_play-02 a{
+	display:block;
+	position:absolute;
+	top:320px;
+	right:143px;
+	width:73px;
+	height:75px;
+	background:url(../images/btn_play.png) 0 -150px no-repeat;
+	text-indent:-9999px}
+.btn_play-02 a:hover{
+	background:url(../images/btn_play.png) 0 -225px no-repeat}
+		
 #main-vision{
 	display:block;
 	position:absolute;
@@ -150,34 +157,31 @@ h1 a{
 /* 2.3 首頁選單 */		
 #box_menu{
 	display:block;
-	position:relative;
-	float:right;
-	width:608px}
+	position:relative}
 #box_menu ul{
 	display:block;
 	position:absolute;
-	top:400px;
-	left:30px;
-	width:520px;
-	height:154}
+	top:105px;
+	left:0;
+	width:131px}
 #box_menu li a{
 	display: block;
-	float:left;
-	width:195px;
-	height:61px;
+	width:131px;
+	height:46px;
 	text-indent:-9999px;
 	background:url(../images/btn_nav.png) no-repeat;
-	margin:0 16px 16px 0}
+	margin: 30px 0;
+	border-bottom:1px dashed #FFFFFF}
 #box_menu a.nav_01, #box_aside a.nav_01{ background-position: 0 0}
-#box_menu a.nav_01:hover, #box_aside a.nav_01:hover{ background-position: 0 -61px}
-#box_menu a.nav_02, #box_aside a.nav_02{ background-position: 0 -122px}
-#box_menu a.nav_02:hover, #box_aside a.nav_02:hover{ background-position: 0 -183px}
-#box_menu a.nav_03, #box_aside a.nav_03{ background-position: 0 -244px}
-#box_menu a.nav_03:hover, #box_aside a.nav_03:hover{ background-position: 0 -305px}
-#box_menu a.nav_04, #box_aside a.nav_04{ background-position: 0 -366px}
-#box_menu a.nav_04:hover, #box_aside a.nav_04:hover{ background-position: 0 -427px}
-#box_menu a.nav_05, #box_aside a.nav_05{ background-position: 0 -488px}
-#box_menu a.nav_05:hover, #box_aside a.nav_05:hover{ background-position: 0 -549px}	
+#box_menu a.nav_01:hover, #box_aside a.nav_01:hover{ background-position: 0 -46px}
+#box_menu a.nav_02, #box_aside a.nav_02{ background-position: 0 -92px}
+#box_menu a.nav_02:hover, #box_aside a.nav_02:hover{ background-position: 0 -138px}
+#box_menu a.nav_03, #box_aside a.nav_03{ background-position: 0 -184px}
+#box_menu a.nav_03:hover, #box_aside a.nav_03:hover{ background-position: 0 -230px}
+#box_menu a.nav_04, #box_aside a.nav_04{ background-position: 0 -276px}
+#box_menu a.nav_04:hover, #box_aside a.nav_04:hover{ background-position: 0 -322px}
+#box_menu a.nav_05, #box_aside a.nav_05{ background-position: 0 -368px}
+#box_menu a.nav_05:hover, #box_aside a.nav_05:hover{ background-position: 0 -414px}	
 
 /* 2.4 版權列 */					
 footer{
