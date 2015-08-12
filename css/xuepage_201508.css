@@ -1,0 +1,377 @@
+/**********************************************************************************************
+
+	Title: CSS for DGH MicroMovie Site
+	Author: Elmo Wu (by xuedesign studio)
+	Author URL: http://www.xuedesign.tw/
+	Version: v1.0 (2015-08)
+
+***********************************************************************************************
+		1 通用
+		2.首頁
+		   2-1. 頂端列
+		   2-2. 主要內容區塊
+		   2-3. 首頁選單
+		   2-4. 版權列
+		3. 劇情介紹
+		4. 劇照花絮
+		5. 單位簡介
+		6. 相關連結		
+***********************************************************************************************/
+
+/* 1. 通用 
+===============================================================================================*/
+body{
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:22px;
+	color:#513030;
+	background:url(../images/bg_site.png) repeat}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+::selection {
+   background:#4b4608;
+   color:#fffcdb}
+::-moz-selection {
+   background:#4b4608;
+   color:#fffcdb}
+
+/* 2. 首頁  
+===============================================================================================*/
+#bg { position: fixed; top: 0; left: 0; }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+#wrap{
+	display:block;
+	width:1238px;
+	margin:0 auto}
+#box_index{
+	display:block;
+	position: absolute;
+	top: 15px;
+    left: 50%;
+	width:1238px;
+	background:url(../images/bg_index.png) repeat;
+	margin: 0 0 0 -620px;
+	-webkit-box-shadow: 0 0 20px #4E4E4E;
+    -moz-box-shadow: 0 0 20px #4E4E4E;
+    box-shadow: 0 0 20px #4E4E4E;
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px}
+
+/* 2.1 頂端列 */	
+h1 a{
+	display:block;
+	position:absolute;
+	top:0;
+	left:30px;
+	width:212px;
+	height:120px;
+	background:url(../images/pic_h1.png) no-repeat;
+	text-indent:-9999px}
+
+/* 2.2 主要內容區塊 */		
+#sub-vision{
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:221px;
+	z-index:99;
+	background: url(../images/pic_sub-vision.png) no-repeat;
+	width:295px;
+	height:378px}	
+#truck{
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:105px;
+	background:url(../images/icon_truck.png) no-repeat;
+	width:79px;
+	height:44px}
+		
+
+/* 2.3 首頁選單 */		
+#box_aside li a{
+	display: block;
+	width:131px;
+	height:46px;
+	text-indent:-9999px;
+	background:url(../images/btn_nav.png) no-repeat;
+	margin: 30px 0;
+	border-bottom:1px dashed #FFFFFF}
+#box_aside a.nav_01{ background-position: 0 0}
+#box_aside a.nav_01:hover{ background-position: 0 -46px}
+#box_aside a.nav_02{ background-position: 0 -92px}
+#box_aside a.nav_02:hover{ background-position: 0 -138px}
+#box_aside a.nav_03{ background-position: 0 -184px}
+#box_aside a.nav_03:hover{ background-position: 0 -230px}
+#box_aside a.nav_04{ background-position: 0 -276px}
+#box_aside a.nav_04:hover{ background-position: 0 -322px}
+#box_aside a.nav_05{ background-position: 0 -368px}
+#box_aside a.nav_05:hover{ background-position: 0 -414px}	
+
+/* 2.4 版權列 */					
+footer{
+	clear:both;
+	display:block;
+	position:relative;
+	width:1238px;
+	height:46px;
+	background:url(../images/bg_footer.png) repeat-x;
+	-webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px}
+footer p{
+	text-align:center;
+	font-size:0.813em;
+	color:#fffcdb;
+	margin:0;
+	padding:0;
+	line-height:46px}
+footer .txt_ad{
+	display:block;
+	position:absolute;
+	top:14px;
+	right:48px;
+	width:52px;
+	height:24px;
+	background:url(../images/pic_ad.png) no-repeat;
+	text-indent:-9999px}			
+	
+/* 3. 劇情介紹  
+===============================================================================================*/
+#box_container{
+	display:block;
+	position: absolute;
+	top: 15px;
+    left: 50%;
+	width:1238px;
+	background: url(../images/bg_container.png) no-repeat #ff9275;
+	margin: 0 0 0 -620px;
+	-webkit-box-shadow: 0 0 20px #4E4E4E;
+    -moz-box-shadow: 0 0 20px #4E4E4E;
+    box-shadow: 0 0 20px #4E4E4E;
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px}
+
+#box_container h2{
+	display:block;
+	position:absolute;
+	top:14px;
+	right:43px;
+	background:url(../images/pic_h2-1.png) no-repeat;
+	width:279px;
+	height:43px;
+	text-indent:-9999px;
+	margin:0;
+	padding:0}
+#box_subcontent{
+	display:block;
+	position:relative;
+	width:1238px;
+	min-height:713px}
+#bg_house{
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:url(../images/pic_house.png) repeat-x;
+	width:1238px;
+	height:159px}		
+#box_aside{
+	display:block;
+	position:relative;
+	float:left;
+	z-index:99;
+	width:195px;
+	padding-left:15px}
+#box_aside ul{
+	display:block;
+	width:210px;
+	padding-top:110px}
+
+#box_pagemain{
+	display:block;
+	position:relative;
+	float:right;
+	width:938px;
+	padding:60px 0 0 90px}
+#bar_title{
+	display:block;
+	width:100%;
+	height:50px;
+	background:#00c5b9;
+	-webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0}	
+#bar_title span{
+	display:block;
+	position:absolute;
+	top:45px;
+	left:55px;
+	background:url(../images/pot_truck.png) no-repeat;
+	width:84px;
+	height:84px;}	
+#bar_title h3{
+	display:block;
+	position:absolute;
+	top:72px;
+	left:160px;
+	background: url(../images/bg_pagetitle.png) no-repeat;
+	width:135px;
+	height:24px;
+	margin:0;
+	text-indent:-9999px}
+#bar_title .title_01{ background-position:0 0}
+#bar_title .title_02{ background-position:0 -24px}
+#bar_title .title_03{ background-position:0 -48px}
+#bar_title .title_04{ background-position:0 -72px}		
+
+#box_pageinfo{
+	display: block;
+	width:900px;
+	min-height:655px;
+	background:url(../images/bg_pageinfo.png) repeat;
+	-webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0}
+#box_pageinfo h4{ margin:0}
+#box_pageinfo p{ 
+    font-size:0.938em;
+    line-height:25px}
+.page_story .btn_play, 
+.page_story .btn_play{
+	display:block;
+	position:absolute;
+	top:15px;
+	right:50px;
+	background: url(../images/btn_subplay.png) no-repeat;
+	width:113px;
+	height:29px;
+	text-indent:-9999px}
+.page_story .btn_play:hover,
+.page_story .btn_play:hover{ background-position: 0 -29px}
+.story_main{ 
+    display:block; 
+	padding:80px 0 5px 0;
+	/*border-bottom:1px dashed #4b4608;*/
+	text-shadow:1px 1px 0 #FFFCFE}
+.box_actor{ 
+    display:block; 
+	width:760px; 
+	margin:0 auto}
+.box_actor li{
+	display:block;
+	float:left;
+	width:180px;
+	margin:0 30px;
+	list-style:none}
+.box_actor li img{ display:block; width:164px; margin:0 auto 20px auto}	
+.box_actor li h4{
+	font-size:1.125em;
+	line-height:20px;
+	color:#C6162D;
+	letter-spacing:1px;
+	text-align:center}
+.box_actor li p{text-shadow:1px 1px 0 #FFFCFE}					 	 	
+			
+/* 4. 劇照花絮 
+===============================================================================================*/
+#box_pageinfo .box_stills{
+	display:block;
+	width:763px;
+	padding:100px 50px 0 0}
+#box_pageinfo .box_stills h4{
+	font-size:1em;
+	letter-spacing:1px;
+	margin:10px 0 0 0}
+#box_pageinfo .box_stills ul{ margin:0; padding:0}
+#box_pageinfo .box_stills li{
+	display: inline-block;
+	width:110px;
+	height:110px;
+	background:#F5E3EF;
+	margin:15px;
+	list-style:none;
+	overflow:hidden;
+	padding:3px;
+	border:1px solid #CC4C71}					
+.box_film{
+	display:block;
+	width:710px;
+	height:399px;
+	padding:15px 0 15px 24px}
+.box_film-02{
+	display:block;
+	width:657px;
+	height:369px;
+	padding:15px 0 30px 40px}	
+
+/* 5. 單位簡介
+===============================================================================================*/
+.box_note{
+	display:block;
+	float:left;
+	min-height:280px;
+	margin-right:25px;
+	background:#E8D0D8;
+	-webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px}
+.note-01{width:280px;}
+.note-02{width:382px;}	
+.box_note h5{
+	width:100%;
+	background:#CC4C71;
+	font-size:1em;
+	color:#FFF;
+	line-height:50px;
+	text-align:center;
+	letter-spacing:1px;
+	border-bottom:1px solid #FFF;
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0}
+.box_note ul{ margin:10px 15px; padding:0}
+.box_note li{
+	list-style: disc inside;
+	font-size:0.875em;
+	line-height:25px;
+	padding:10px 0;
+	border-bottom:1px dashed #FBF5F9;
+	text-shadow:1px 1px 0 #F5DFE6}		
+
+/* 6. 相關連結  
+===============================================================================================*/
+.box_link ul{
+	display:block;
+	padding:100px 50px 30px 0}
+.box_link li{
+	list-style:none;
+	display:block;
+	float:left;
+	width:150px;
+	margin-right:50px}
+.box_link li h4{
+	font-size:1em;
+	text-align:center;
+	line-height:22px;
+	padding-top:15px;
+	text-shadow:1px 1px 0 #FFFCFE}		
+.box_link li a{
+	display:block;
+	width:132px;
+	height:132px;
+	background:url(../images/link_logo.png) no-repeat;
+	text-indent:-9999px;
+	margin:0 auto}
+.box_link li a.icon-office{ background-position:0 -132px}	

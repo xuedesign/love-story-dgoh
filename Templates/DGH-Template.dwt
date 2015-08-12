@@ -1,19 +1,20 @@
-<!DOCTYPE html><html lang="zh-tw"><!-- InstanceBegin template="/Templates/DGH-Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html>
+<html lang="zh-tw">
 <head>
 <meta charset="utf-8" lang="zh-tw">
 <meta name="description" content="合法營業貨車，安心有保障"/>
 <meta name="keywords" content="中華民國交通部公路總局臺中區監理所,微電影,卓越數位科技,開始設計工作室"/>
 <meta name="Author" content="中華民國交通部公路總局 Directorate General of Highways, Republic of China(Taiwan) " />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>劇照花絮 │ 愛情不搬家 X 幸福請簽收-中華民國交通部公路總局臺中區監理所微電影網</title>
-<!-- InstanceEndEditable -->
-<link rel="shortcut icon"  href="images/favicon.ico"/>
-<link rel="icon" href="images/favicon.ico"/>
-<link rel="stylesheet" href="css/pure-min.css"/>
-<link rel="stylesheet" href="css/xuepage_201508.css"/>
-<link rel="stylesheet" href="css/jquery.fancybox.css"/>
-<link rel="stylesheet" href="css/fancybox-thumbs.css"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>劇情介紹 │ 愛情不搬家 X 幸福請簽收-中華民國交通部公路總局臺中區監理所微電影網</title>
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico"/>
+<link rel="stylesheet" href="../css/pure-min.css"/>
+<link rel="stylesheet" href="../css/xuepage_201508.css"/>
+<link rel="stylesheet" href="../css/jquery.fancybox.css"/>
+<link rel="stylesheet" href="../css/fancybox-thumbs.css"/>
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -23,8 +24,8 @@
 <!--[if IE 6]>
 	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
 <![endif]-->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body>
@@ -43,19 +44,19 @@
             
              <nav id="box_aside">
                  <ul>
-                    <li><a href="story.html" class="nav_01">劇情介紹</a></li>
-                    <li><a href="stills.html" class="nav_02">劇照花絮</a></li>
-                    <li><a href="profile.html" class="nav_03">單位簡介</a></li>
-                    <li><a href="link.html" class="nav_04">相關連結</a></li>
-                    <li><a href="index.html" class="nav_05">返回首頁</a></li>
+                    <li><a href="../story.html" class="nav_01">劇情介紹</a></li>
+                    <li><a href="../stills.html" class="nav_02">劇照花絮</a></li>
+                    <li><a href="../profile.html" class="nav_03">單位簡介</a></li>
+                    <li><a href="../link.html" class="nav_04">相關連結</a></li>
+                    <li><a href="../index.html" class="nav_05">返回首頁</a></li>
                  </ul>
               </nav>
               
-              <!-- InstanceBeginEditable name="PageMine" -->
+              <!-- TemplateBeginEditable name="PageMine" -->
               <div id="box_pagemain">
                 <section id="box_pageinfo" class="page_story">
                   <div id="bar_title"> <span></span>
-                    <h3 class="title_02">劇照花絮</h3>
+                    <h3 class="title_01">劇情介紹</h3>
                   </div>
                   <!--<a class="fancybox-media btn_play" href="https://www.youtube.com/watch?v=hygSSE9P5m4&feature=youtu.be" title="[影片播放] 幸福小距離">[影片播放] 幸福小距離</a>
                     <div class="story_main">
@@ -80,7 +81,7 @@
                 </section>
               </div>
               <br class="clean">
-              <!-- InstanceEndEditable -->
+              <!-- TemplateEndEditable -->
          </div>
          
          <footer>
@@ -93,19 +94,19 @@
 </div> 
 
 <script src="http://code.jquery.com/jquery.min.js"></script>
-<script src="script/bgsize.js"></script>
-<script src="script/jquery.fancybox.pack.js"></script>
+<script src="../script/bgsize.js"></script>
+<script src="../script/jquery.fancybox.pack.js"></script>
 <script>
 $(document).ready(function(){$(".fancybox").fancybox();$(".fancybox-effects-a").fancybox({helpers:{title:{type:"outside"},overlay:{speedOut:0}}});$(".fancybox-effects-b").fancybox({openEffect:"none",closeEffect:"none",helpers:{title:{type:"over"}}});$(".fancybox-effects-c").fancybox({wrapCSS:"fancybox-custom",closeClick:!0,openEffect:"none",helpers:{title:{type:"inside"},overlay:{css:{background:"rgba(238,238,238,0.85)"}}}});$(".fancybox-effects-d").fancybox({padding:0,openEffect:"elastic",openSpeed:150,
 closeEffect:"elastic",closeSpeed:150,closeClick:!0,helpers:{overlay:null}});$(".fancybox-buttons").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",closeBtn:!1,helpers:{title:{type:"inside"},buttons:{}},afterLoad:function(){this.title="Image "+(this.index+1)+" of "+this.group.length+(this.title?" - "+this.title:"")}});$(".fancybox-thumbs").fancybox({prevEffect:"none",nextEffect:"none",closeBtn:!1,arrows:!1,nextClick:!0,helpers:{thumbs:{width:50,height:50}}});$(".fancybox-media").attr("rel",
 "media-gallery").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",arrows:!1,helpers:{media:{},buttons:{}}});$("#fancybox-manual-a").click(function(){$.fancybox.open("1_b.jpg")});$("#fancybox-manual-b").click(function(){$.fancybox.open({href:"iframe.html",type:"iframe",padding:5})});$("#fancybox-manual-c").click(function(){$.fancybox.open([{href:"1_b.jpg",title:"My title"},{href:"2_b.jpg",title:"2nd title"},{href:"3_b.jpg"}],{helpers:{thumbs:{width:75,height:50}}})})});    
 </script>
-<script src="script/jquery.fancybox-thumbs.js"></script>
-<script src="script/jquery.fancybox-media.js"></script>
-<script src="script/jquery.lazyload.js"></script>
-<script src="script/web_set.js"></script>
+<script src="../script/jquery.fancybox-thumbs.js"></script>
+<script src="../script/jquery.fancybox-media.js"></script>
+<script src="../script/jquery.lazyload.js"></script>
+<script src="../script/web_set.js"></script>
 </body>
-<!-- InstanceEnd --></html>
+</html>
 <!--
    ##############               ###############   
     ##############             ###############    
