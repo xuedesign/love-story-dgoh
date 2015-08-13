@@ -176,7 +176,7 @@ footer .txt_ad{
 	display:block;
 	position:relative;
 	width:1238px;
-	min-height:713px}
+	/*min-height:713px*/}
 #bg_house{
 	display:block;
 	position:absolute;
@@ -237,31 +237,74 @@ footer .txt_ad{
 #box_pageinfo{
 	display: block;
 	width:900px;
-	min-height:655px;
-	background:url(../images/bg_pageinfo.png) repeat;
+	min-height:640px;
+	background:url(../images/bg_pageinfo.png) repeat-y;
 	-webkit-border-radius: 15px 15px 0 0;
     -moz-border-radius: 15px 15px 0 0;
     border-radius: 15px 15px 0 0}
-#box_pageinfo h4{ margin:0}
-#box_pageinfo p{ 
-    font-size:0.938em;
-    line-height:25px}
-.page_story .btn_play, 
+#box_main{
+	display:block;
+	width:660px;
+	height:300px;
+	margin:30px 30px 0 215px;
+	padding:0}	
+.abgne_tab ul, .abgne_tab li {
+	margin: 0;
+	padding: 0;
+	list-style: none}
+.abgne_tab {
+	clear: left;
+	width: 660px;
+	margin: 10px 0}
+.tabs { width: 100%; height: 135px}
+.tabs li a{
+	display:block;
+	position: relative;
+	float: left;
+	width: 197px;
+	height: 135px;
+	text-indent:-9999px;
+	overflow: hidden;
+	margin:0 15px;
+	background:url(../images/bg_tabtitle.png) no-repeat;}
+.tabs li a.tabs-01{ background-position: 0 0}
+.tabs li a.tabs-02{ background-position: 0 -270px}	
+.tabs a:hover.tabs-01, .tabs .active a.tabs-01{ background-position:0 -135px}
+.tabs a:hover.tabs-02, .tabs .active a.tabs-02{ background-position:0 -405px}
+
+.tab_container {
+	clear: left;
+	width: 100%;
+	border-top: 2px solid #fff;
+	margin-top: 15px}
+.tab_container .tab_content {
+	display:block;
+	position:relative;
+	padding: 0 30px}
+.tab_container .tab_content h3{
+	font-size:1.125em;
+	line-height:25px;
+	padding:0}
+.tab_container .tab_content p{
+	font-size:0.938em;
+	line-height:24px;
+	padding-left:20px;
+	text-shadow:1px 1px 0 #FFF8F6}	
+		
 .page_story .btn_play{
 	display:block;
 	position:absolute;
-	top:15px;
-	right:50px;
+	top:-28px;
+	right:30px;
 	background: url(../images/btn_subplay.png) no-repeat;
-	width:113px;
-	height:29px;
-	text-indent:-9999px}
-.page_story .btn_play:hover,
-.page_story .btn_play:hover{ background-position: 0 -29px}
+	width:132px;
+	height:31px;
+	text-indent:-9999px;
+	margin:25px auto}
+.page_story .btn_play:hover{ background-position: 0 -31px}
 .story_main{ 
     display:block; 
 	padding:80px 0 5px 0;
-	/*border-bottom:1px dashed #4b4608;*/
 	text-shadow:1px 1px 0 #FFFCFE}
 .box_actor{ 
     display:block; 
@@ -270,17 +313,19 @@ footer .txt_ad{
 .box_actor li{
 	display:block;
 	float:left;
-	width:180px;
-	margin:0 30px;
+	width:175px;
+	margin:0 15px;
 	list-style:none}
-.box_actor li img{ display:block; width:164px; margin:0 auto 20px auto}	
+.box_actor li img{ display:block; width:92px; margin:0 auto 10px auto}	
 .box_actor li h4{
 	font-size:1.125em;
 	line-height:20px;
 	color:#C6162D;
 	letter-spacing:1px;
-	text-align:center}
-.box_actor li p{text-shadow:1px 1px 0 #FFFCFE}					 	 	
+	text-align:center;
+	padding:0;
+	margin:0}
+.box_actor li p{text-shadow:1px 1px 0 #FFF8F6}					 	 	
 			
 /* 4. 劇照花絮 
 ===============================================================================================*/
