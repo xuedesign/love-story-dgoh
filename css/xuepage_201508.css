@@ -278,18 +278,19 @@ footer .txt_ad{
 	border-top: 2px solid #fff;
 	margin-top: 15px}
 .tab_container .tab_content {
-	display:block;
+	display: block;
 	position:relative;
 	padding: 0 30px}
 .tab_container .tab_content h3{
 	font-size:1.125em;
 	line-height:25px;
 	padding:0}
-.tab_container .tab_content p{
+.tab_container .tab_content p, .box_profile p, .box_service p{
 	font-size:0.938em;
 	line-height:24px;
 	padding-left:20px;
-	text-shadow:1px 1px 0 #FFF8F6}	
+	text-shadow:1px 1px 0 #FFF8F6}
+#tab2{ display:none}	
 		
 .page_story .btn_play{
 	display:block;
@@ -357,45 +358,31 @@ footer .txt_ad{
 
 /* 5. 單位簡介
 ===============================================================================================*/
-.box_note{
+.box_service ol{
 	display:block;
-	float:left;
-	min-height:280px;
-	margin-right:25px;
-	background:#E8D0D8;
-	-webkit-border-radius:15px;
-    -moz-border-radius:15px;
-    border-radius:15px}
-.note-01{width:280px;}
-.note-02{width:382px;}	
-.box_note h5{
-	width:100%;
-	background:#CC4C71;
-	font-size:1em;
-	color:#FFF;
-	line-height:50px;
-	text-align:center;
-	letter-spacing:1px;
-	border-bottom:1px solid #FFF;
-	margin:0;
-	padding:0;
-	-webkit-border-radius: 15px 15px 0 0;
-    -moz-border-radius: 15px 15px 0 0;
-    border-radius: 15px 15px 0 0}
-.box_note ul{ margin:10px 15px; padding:0}
-.box_note li{
-	list-style: disc inside;
-	font-size:0.875em;
-	line-height:25px;
-	padding:10px 0;
-	border-bottom:1px dashed #FBF5F9;
-	text-shadow:1px 1px 0 #F5DFE6}		
+	width:90%;
+	margin:0 auto;
+	padding:20px;
+	border:2px dashed #00C5B9;
+	background:#fff;
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px}
+.box_service li{
+	width:90%;
+	font-size:0.938em;
+	line-height:24px;
+	text-shadow:1px 1px 0 #FFF8F6;
+	margin-left:30px;
+	padding:8px 0;
+	border-bottom:1px dashed #DBC3BD}
+.box_service li:nth-child(5){ border-bottom:none}		
 
 /* 6. 相關連結  
 ===============================================================================================*/
 .box_link ul{
 	display:block;
-	padding:100px 50px 30px 0}
+	padding:30px 50px 30px 0}
 .box_link li{
 	list-style:none;
 	display:block;
