@@ -389,12 +389,12 @@ footer .txt_ad{
 	display:block;
 	float:left;
 	width:150px;
-	margin-right:50px}
+	margin:0 0 30px 50px}
 .box_link li h4{
 	font-size:1em;
 	text-align:center;
 	line-height:22px;
-	padding-top:15px;
+	padding-top:5px;
 	text-shadow:1px 1px 0 #FFFCFE}		
 .box_link li a{
 	display:block;
@@ -404,4 +404,5 @@ footer .txt_ad{
 	text-indent:-9999px;
 	margin:0 auto}
 .box_link li a.icon-office{ background-position:0 -132px}
-.box_link li a.icon-office-02{ background-position:0 -264px}	
+.box_link li a.icon-office-02{ background-position:0 -264px}
+.box_link li a.icon-office-03{ background-position:0 -396px}	
