@@ -91,14 +91,14 @@ h1 a{
 	background:url(../images/pic_h2-01.png) no-repeat;
 	width:388px;
 	height:264px;
-	top:-100px;
-	right:60px}
+	bottom:10px;
+	right:35px}
 #box_content .movie-title-02{
 	background:url(../images/pic_h2-02.png) no-repeat;
 	width:340px;
 	height:248px;
-	bottom:5px;
-	right:69px}		
+	top:-80px;
+	right:130px}		
 #box_content h3{
 	display:block;
 	position:absolute;
@@ -112,8 +112,8 @@ h1 a{
 .btn_play-01 a{
 	display:block;
 	position:absolute;
-	top:-80px;
-	right:163px;
+	top:320px;
+	right:143px;
 	width:73px;
 	height:75px;
 	background:url(../images/btn_play.png) no-repeat;
@@ -123,8 +123,8 @@ h1 a{
 .btn_play-02 a{
 	display:block;
 	position:absolute;
-	top:320px;
-	right:143px;
+	top:-70px;
+	right:215px;
 	width:73px;
 	height:75px;
 	background:url(../images/btn_play.png) 0 -150px no-repeat;
