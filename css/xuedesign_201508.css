@@ -91,7 +91,8 @@ h1 a{
 	background:url(../images/pic_h2-01.png) no-repeat;
 	width:388px;
 	height:264px;
-	bottom:10px;
+	top:280px;
+	/*bottom:10px;*/
 	right:35px}
 #box_content .movie-title-02{
 	background:url(../images/pic_h2-02.png) no-repeat;
@@ -205,4 +206,128 @@ footer .txt_ad{
 	width:52px;
 	height:24px;
 	background:url(../images/pic_ad.png) no-repeat;
-	text-indent:-9999px}				
+	text-indent:-9999px}
+
+/*新增動畫效果 #20150827*/
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s}
+.box_ani-01{
+	-webkit-animation-delay:1s;
+	animation-delay:1s;
+	-webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+	animation-duration: 2s;
+    -webkit-animation-name: zoomIn;
+    -moz-animation-name: zoomIn;
+    animation-name: zoomIn}
+.box_ani-02{
+	-webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+	animation-duration: 2s;
+    -webkit-animation-name: zoomIn;
+    -moz-animation-name: zoomIn;
+    animation-name: zoomIn}	
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+	-webkit-animation-delay:2s;
+	animation-delay:2s;
+	-webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+	animation-duration: 1s;
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    animation-name: fadeIn}
+	
+@keyframes bounceInRight {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.bounceInRight {
+  -webkit-animation-delay:2s;
+  animation-delay:2s;
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+}							
