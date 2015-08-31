@@ -405,4 +405,43 @@ footer .txt_ad{
 	margin:0 auto}
 .box_link li a.icon-office{ background-position:0 -132px}
 .box_link li a.icon-office-02{ background-position:0 -264px}
-.box_link li a.icon-office-03{ background-position:0 -396px}	
+.box_link li a.icon-office-03{ background-position:0 -396px}
+
+/*新增動畫效果 #20150831*/	
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;	
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
